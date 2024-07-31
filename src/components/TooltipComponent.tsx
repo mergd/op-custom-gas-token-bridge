@@ -13,7 +13,7 @@ export default function TooltipComponent(props: TooltipProps) {
     <TooltipProvider delayDuration={400}>
       <Tooltip>
         <TooltipTrigger>{props.children}</TooltipTrigger>
-        <TooltipContent className={cn(props.className)}>{props.tooltipText}</TooltipContent>
+        <TooltipContent className={cn(props.className, 'bg-primary')}>{props.tooltipText}</TooltipContent>
       </Tooltip>
     </TooltipProvider>
   )

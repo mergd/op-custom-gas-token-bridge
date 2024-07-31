@@ -10,7 +10,7 @@ export function Header() {
         <h1 className='text-xl font-bold'>{SITE_EMOJI}</h1>
       </LinkComponent>
 
-      <div className='flex gap-2'>
+      <div className='flex items-center gap-2'>
         <ThemeToggle />
         <Connect />
       </div>

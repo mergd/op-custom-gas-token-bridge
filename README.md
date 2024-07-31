@@ -1,6 +1,6 @@
 # Nexth
 
-Quickly install ShadCN components with `pnpm shadcn $component`
+Helper frontend for bridging custom gas tokens to a OP Custom gas token chain of your choice :D
 
 A Next.js + Ethereum starter kit to quickly ship production-ready Web3 Apps ⚡
 

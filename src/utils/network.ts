@@ -1,7 +1,5 @@
-import { arbitrum, base, Chain, hardhat, linea, mainnet, optimism, polygon, scroll, sepolia } from 'viem/chains'
+import { arbitrum, base, Chain, mainnet, sepolia, baseSepolia, arbitrumSepolia } from 'viem/chains'
 
-let chains = [mainnet, arbitrum, base, linea, polygon, optimism, scroll] as [Chain, ...Chain[]]
-
-if (process.env.NODE_ENV !== 'production') chains.push(sepolia, hardhat)
+let chains = [mainnet, arbitrum, base, sepolia, baseSepolia, arbitrumSepolia] as [Chain, ...Chain[]]
 
 export const ETH_CHAINS = chains
